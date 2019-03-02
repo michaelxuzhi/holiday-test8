@@ -1,0 +1,36 @@
+
+.vi1{
+  margin-bottom: 80rpx; 
+}
+
+.bg-Tue{
+  background: rgb(26, 23, 66);
+}
+
+.tx1{
+  font-size:50rpx; 
+}
+
+.vi2{
+margin: 0 0 0 20rpx;
+display: flex;
+padding-bottom: 40rpx;
+}
+
+.vi3{
+  border-radius: 40rpx 0 0 40rpx;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 20%;
+  background: rgb(26, 23, 66);
+  
+}
+
+
+.vi5{
+
+  flex: 60%;
+  border-bottom: 8rpx solid black;
+  border-top: 8rpx solid black;
+}

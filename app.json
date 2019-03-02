@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "page/two/two",
+    "page/one/one",
+    "page/three/three",
+    "page/index/index",
+    "page/utils/utils",
+    "page/Mon/Mon",
+    "page/Turs/Turs",
+    "page/Weds/Weds",
+    "page/Thurs/Thurs",
+    "page/Fri/Fri"
+
+  ],
+  "requiredBackgroundModes": [
+    "audio"],
+  "window": {
+    "navigationBarBackgroundColor": "#1BC3B8",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "课程表",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
+    "navigationStyle": "custom",
+    "onReachBottomDistance": 300
+  },
+  
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+}

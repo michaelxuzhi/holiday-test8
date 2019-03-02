@@ -1,0 +1,100 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"uglifyFileName": true,
+		"nodeModules": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.5.0",
+	"appid": "wx5806ff4c12be8d2f",
+	"projectname": "holiday-test8",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"id": -1,
+					"name": "two",
+					"pathName": "page/two/two",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "three",
+					"pathName": "page/three/three",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "one",
+					"pathName": "page/one/one",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "Mon一",
+					"pathName": "page/Mon/Mon",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "Tue二",
+					"pathName": "page/Turs/Turs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "wEDS",
+					"pathName": "page/Weds/Weds",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "四",
+					"pathName": "page/Thurs/Thurs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Fri",
+					"pathName": "page/Fri/Fri",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

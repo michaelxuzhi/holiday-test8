@@ -1,0 +1,53 @@
+
+<view > 
+
+<view class="shadow-blur bg-img bg-mask padding-tb-xlmy " style="background-image: url('http://n.sinaimg.cn/transform/20141203/cesifvx0121588.jpg')">
+  <view class='padding-xlmy text-white '>
+    <view class='padding-xs  text-xl'>
+      <text class='tx1 '>今天是星期{{days}}</text>
+    </view>
+     <view class='padding-xs'>
+      {{daystx}}
+    </view>
+    </view>
+
+</view>
+<view class="cu-progress striped active vi1">
+    <view class=' bg-Tue' style="width:{{loading?'28.57%':''}};">星期二</view>
+    <view class='bg-blue' style="width:{{loading?'71.43%':''}};color:white">第二天也要加油鸭！</view>
+  </view>
+
+
+<!-- <view class='padding-sm'>
+    <view class='bg-gradual-pink padding radius shadow-blur'>
+      <view class="text-lg">霞彩</view>
+      <!-- <view class='margin-top-sm text-Abc'>#ec008c - #6739b6</view> -->
+    <!-- </view>
+</view> -->
+
+
+
+<view class='vi2' wx:for="{{dates1}}" wx:key="dates1" >
+
+<view class='vi3 padding radius shadow-blur'>
+  <text class='text-white'>第{{item.cnum}}大节</text>
+</view>
+
+<van-collapse class='vi5'value="{{ activeNames }}" bind:change="onChange">
+  <van-collapse-item title="{{item.cname}}" name="{{item.name}}">
+    <text>{{item.tname}}{{item.peroid}}</text> 
+  </van-collapse-item>
+  </van-collapse>
+
+</view>
+
+
+
+
+
+</view>
+
+
+
+
+

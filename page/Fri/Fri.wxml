@@ -1,0 +1,50 @@
+
+<view > 
+
+<view class="shadow-blur bg-img bg-mask padding-tb-xlmy " style="background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550568244004&di=8ad9d406063edfd23ae1541a05901df9&imgtype=0&src=http%3A%2F%2Fpic.rmb.bdstatic.com%2Fd625a546908bde42ea03e97520538b16.jpeg')">
+  <view class='padding-xlmy text-white '>
+    <view class='padding-xs  text-xl'>
+      <text class='tx1 '>今天是星期{{days}}</text>
+    </view>
+     <view class='padding-xs'>
+      {{daystx}}
+    </view>
+  </view>
+</view>
+
+<view class="cu-progress striped active vi1">
+    <view class='bg-Fri' style="width:{{loading?'71.43%':''}};color:black">星期五</view>
+    <view class='bg-blue' style="width:{{loading?'28.57%':''}};color:white">周末在等你！</view>
+  </view>
+
+
+<!-- <view class='padding-sm'>
+    <view class='bg-gradual-pink padding radius shadow-blur'>
+      <view class="text-lg">霞彩</view>
+      <!-- <view class='margin-top-sm text-Abc'>#ec008c - #6739b6</view> -->
+    <!-- </view>
+</view> -->
+
+
+
+<view class='vi2' wx:for="{{dates1}}" wx:key="dates1" >
+
+<view class='vi3 padding shadow-blur'>
+  <text >第{{item.cnum}}大节</text>
+</view>
+
+<van-collapse class='vi5'value="{{ activeNames }}" bind:change="onChange">
+  <van-collapse-item title="{{item.cname}}" name="{{item.name}}">
+    <text>{{item.tname}}{{item.peroid}}</text> 
+  </van-collapse-item>
+  </van-collapse>
+
+</view>
+
+
+</view>
+
+
+
+
+

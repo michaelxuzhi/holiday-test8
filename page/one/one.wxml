@@ -1,0 +1,23 @@
+<view>
+
+  <view class='vi1' style='margin-top:100rpx;margin-bottom:40rpx'>
+    今天是周末噢！如果想查看课程表，可以在下面选择日期噢！
+  </view>
+
+  <view class='vi1'>
+    <text>今天是{{nian}}年{{yue}}月{{ri}}日{{xin1}}</text>
+  </view>
+
+
+  <view class='vi2'>
+    <picker class='pick1' mode='date' value='{{dates}}' start='2019-1-01' end='2020-1-01' bindchange='bindDateChange'>
+      <view class='tian'>请选择需要查询的日期：</view>
+      <view class='vi3'>{{dates}}</view>
+    </picker>
+  </view>
+
+  <view class='vi5'>
+  <button class='vi4 cu-btn lines-green round shadow' style="display:{{show}}" bindtap='click'>{{xin2}}</button>
+  </view>
+
+</view>

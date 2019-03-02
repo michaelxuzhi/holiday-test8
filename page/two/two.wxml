@@ -1,0 +1,19 @@
+
+<!-- <view class='grid col-5 padding-sm'>
+  <view class='margin-tb-sm text-center' wx:for="{{ColorList}}" wx:key>
+    <button class='cu-btn round bg-{{item.name}} {{shadow?"shadow":""}}' bindtap='bind'>{{item.title}}</button>
+  </view>
+</view> -->
+
+<button bindtap='bind'>按一下</button>
+<!-- <view class="cu-bar bg-white solid-bottom margin-top">
+  <view class='action'>
+    <text class='icon-title text-blue'></text>进度条条纹
+  </view>
+  <switch class='sm margin-right-sm' bindchange='SetActive'></switch>
+</view>
+<view class="padding bg-white">
+  <view class="cu-progress round sm striped {{active?'active':''}}">
+    <view id='sty1' class='bg-green' style="width:{{loading?'60%':''}};"></view>
+  </view>
+</view> -->

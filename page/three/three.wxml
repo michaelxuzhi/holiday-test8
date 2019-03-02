@@ -1,0 +1,60 @@
+<!--page/three/three.wxml-->
+<view>
+
+  <!-- 这是view1，第一块 -->
+  <!-- <view class='img1'>
+    <image  class="img2" bindtap="chooseimage" src="{{tempFilePaths}}" mode="widthFix" style='width:100%'></image>
+    </view> -->
+
+
+  <!-- 这个vi1的background-color，修改后只是“至今xxx天”这一行会出现颜色变化。 -->
+  <view class='vi1'>
+    <text class='tian'>至今已经</text>
+    <text class='days'>{{cha}}</text>
+    <text class='tian'>天</text>
+  </view>
+
+
+
+  <!-- 这是view2，第二块 -->
+  <view class='vi2'>
+    <picker class='pick1' mode='date' value='{{dates}}' start='1970-1-01' end='2020-1-01' bindchange='bindDateChange'>
+      <view class='tian'>请选择开始日期：</view>
+    
+
+  <!-- 这里用了vi3 -->
+      <view class='vi3'>{{dates}}</view>
+    </picker>
+  </view>
+
+
+
+  <!-- 这是view3，第三块 -->
+  <!-- <view class='vi4'>
+    <button class='btn2' bindtap='click1'>计算日期</button>
+  </view> -->
+
+
+
+
+  <!-- 这是view4，第四块 -->
+  <view class='vi2'>
+    <text class='tian'>距离1000天还有{{dat}}天</text>
+  </view>
+
+
+
+  <!-- 这是view4，第五块 -->
+  <view class='vi2'>
+    <text class='tian'>距离520天还有{{dat1}}天</text>
+  </view>
+
+
+
+  <!-- 这是view4，第六块 -->
+  <view class='vi2'>
+    <text class='tian'>距离1314天还有{{dat2}}天</text>
+  </view>
+
+
+</view>

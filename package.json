@@ -1,0 +1,14 @@
+{
+  "name": "holiday-test6",
+  "version": "1.0.0",
+  "description": "这是2019年1月26日的代码记录，纪念日小程序的部分代码。仅供参考。",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vant-weapp": "^0.5.3"
+  }
+}
